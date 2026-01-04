@@ -44,9 +44,6 @@ The `results/eye_disease` folder contains analysis artifacts and visualizations 
 - Training history (ViT)
 	![ViT Training History](results/eye_disease/vit_training_history.png)
 
-- K-Fold results
-	![K-Fold Results](results/eye_disease/kfold_results.png)
-
 - Augmented images overview
 	![Augmented Images](results/eye_disease/augmented_images.png)
 
