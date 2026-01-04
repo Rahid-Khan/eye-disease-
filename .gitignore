@@ -30,7 +30,6 @@ Thumbs.db
 # Data and models (do not commit large datasets or trained models)
 /data/
 /models/
-/results/
 
 # Uploaded files (app)
 /web_app/static/uploads/

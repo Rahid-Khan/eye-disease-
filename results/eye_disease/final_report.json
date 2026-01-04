@@ -1,0 +1,69 @@
+{
+    "timestamp": "2026-01-04T11:17:00.302675",
+    "dataset_info": {
+        "total_classes": 10,
+        "class_distribution": {
+            "Central_Serous_Chorioretinopathy": 606,
+            "Diabetic_Retinopathy": 3444,
+            "Disc_Edema": 762,
+            "Glaucoma": 2880,
+            "Healthy": 2676,
+            "Macular_Scar": 1937,
+            "Myopia": 2251,
+            "Pterygium": 102,
+            "Retinal_Detachment": 750,
+            "Retinitis_Pigmentosa": 834
+        },
+        "total_images": 16242,
+        "training_samples": 12997,
+        "validation_samples": 3245
+    },
+    "training_config": {
+        "image_size": [
+            224,
+            224
+        ],
+        "batch_size": 32,
+        "epochs": 30,
+        "initial_learning_rate": 0.0001,
+        "patience": 10
+    },
+    "model_performance": {
+        "efficientnet": {
+            "accuracy": 0.21201848983764648,
+            "precision": 0.38952234387397766,
+            "recall": 0.5
+        },
+        "vision_transformer": {
+            "accuracy": 0.44807395339012146,
+            "precision": 0.6144578456878662,
+            "recall": 0.2828967571258545,
+            "auc": 0.8599414229393005
+        },
+        "ensemble": {
+            "accuracy": 0.45423728227615356,
+            "precision": 0.0,
+            "recall": 0.0,
+            "auc": 0.8664895296096802
+        }
+    },
+    "kfold_results": {
+        "mean_accuracy": NaN,
+        "std_accuracy": NaN,
+        "mean_loss": NaN,
+        "fold_accuracies": [],
+        "fold_losses": []
+    },
+    "auc_scores": {
+        "Central_Serous_Chorioretinopathy": 0.8620940519147945,
+        "Diabetic_Retinopathy": 0.8524098234668172,
+        "Disc_Edema": 0.87348129052019,
+        "Glaucoma": 0.7777328951750551,
+        "Healthy": 0.7774549091285305,
+        "Macular_Scar": 0.5702728457948403,
+        "Myopia": 0.8845374677002584,
+        "Pterygium": 1.0,
+        "Retinal_Detachment": 0.9546408185245019,
+        "Retinitis_Pigmentosa": 0.9695938675129228
+    }
+}
