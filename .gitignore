@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+/.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Data and models (do not commit large datasets or trained models)
+/data/
+/models/
+/results/
+
+# Uploaded files (app)
+/web_app/static/uploads/
+
+# Logs
+*.log
+logs/
+
+# Notebook outputs
+*.nbconvert.ipynb
+
+# Pip cache
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment variables
+.env
+env.*.json
+

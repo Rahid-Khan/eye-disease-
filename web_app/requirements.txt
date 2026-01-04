@@ -1,0 +1,26 @@
+# web_app/requirements.txt
+
+# Web Framework
+Flask
+Werkzeug
+
+# Machine Learning
+tensorflow
+keras
+numpy
+pandas
+scikit-learn
+
+# Image Processing
+Pillow
+opencv-python
+
+# Data Visualization
+matplotlib
+seaborn
+
+# Utilities
+python-dotenv
+gunicorn
+
+vit-keras
